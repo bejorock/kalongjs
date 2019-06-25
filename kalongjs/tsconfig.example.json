@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"], // inversify js
+    "types": ["node", "lodash", "express", "reflect-metadata", "jasmine"], // inversify js
+    //"allowJs": true,
+    "module": "commonjs",
+    "outDir": "dist_example",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true, // inversify js
+    "emitDecoratorMetadata": true, // inversify js
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    //"noImplicitReturns": true,
+    //"noEmitOnError": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "example/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
